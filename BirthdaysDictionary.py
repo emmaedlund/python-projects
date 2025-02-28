@@ -1,6 +1,8 @@
 # Birthdays.py
 
-bDaysDict = {}  # Dictionary to store birthdays
+# This program accepts name and birthday information from a user, stores it in a dictionary, then appends it to a file and prints it to the terminal in the following format: [Full Name]'s birthday is [Month] [Day], [Year]
+
+bDaysDict = {}  # Create dictionary to store birthdays
 
 # Valid months list
 valid_months = [
